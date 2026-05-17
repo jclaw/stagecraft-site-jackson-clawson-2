@@ -1,6 +1,18 @@
 {
+  "root": {
+    "props": {
+      "title": "Home"
+    }
+  },
   "content": [
-    { "type": "Heading", "props": { "id": "heading-1", "text": "Welcome", "level": "h1" } },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "heading-1",
+        "text": "Welcome",
+        "level": "h1"
+      }
+    },
     {
       "type": "Section",
       "props": {
@@ -9,7 +21,16 @@
         "headline": "Latest release",
         "body": "Drop a tour-dates block, swap the headline, adjust the width — all from the editor."
       }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "width": "md",
+        "headline": "Section title",
+        "body": "Section body",
+        "id": "Section-f75c5231-9b74-4536-bec4-f8f61bd4e9c6"
+      }
     }
   ],
-  "root": { "props": { "title": "Home" } }
+  "zones": {}
 }
